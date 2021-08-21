@@ -439,9 +439,9 @@ button:hover{
     #section-3{
         height: 130vh;
         justify-content:center;
+        flex-direction: column;
     }
-    #section-3 .container:last-of-type{
-       position: relative;
-       top: 30px;
+     #section-3 .container{
+        margin-top: 40px;
     }
 }
