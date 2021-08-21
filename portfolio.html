@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/2301cf3a9c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="section-1">
+        <div class="background"></div>
+        <nav>
+        
+            <div id="logo"><img src="/portfolio/images/logo.png" alt="logo"></div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#section-1">HOME</a></li>
+                    <li><a href="#section-4">SKILLS</a></li>
+                    <li><a href="#section-2">ABOUT</a></li>
+                    <li><a href="#section-3">PROJECTS</a></li>
+                    <li><a href="#section-5">CONTACT </a></li>
+                </ul>
+            </div>
+            <div id="toggle-btn"><i class="fas fa-bars"></i></div>
+        </nav>
+        <div id="name">
+        <span>HELLO, I'M</span>
+        <h1>ARYAN NAMA</h1>
+    </div>
+    <div id="socialicons">
+    <div class="icons"> <a href="https://www.facebook.com/aryan.nama.165/" target="_blank">  <i class="fab fa-facebook"></i></a></div>
+    <div class="icons"><a href="https://www.linkedin.com/in/aryan-nama-215172177/" target="_blank"><i class="fab fa-linkedin-in"></i></a> </div>
+    <div class="icons"><a href="https://www.instagram.com/aryan.nama001/" target="_blank">
+    <i class="fab fa-instagram"></i></a></div>
+    <div class="icons"><a href="https://www.github.com/aryannama001" target="_blank"><i class="fab fa-github"></i></a></div>
+</div>
+ </section>
+ <section id="section-4">
+    <h1>Technical Skills</h1>
+    <div id="skill-container">
+        <div class="skill"><span>C</span><br>
+           <div class="bar">
+       <div class="skill-bar">
+           <div class="c skill-status"></div>
+       </div>
+       <span>90%</span>
+   </div>
+       </div>
+        <div class="skill"><span>C++</span><br>
+           <div class="bar">
+           <div class="skill-bar">
+               <div class="cplus skill-status"></div>
+           </div>
+           <span>60%</span>
+       </div>
+       </div>
+        <div class="skill"><span>HTML</span><br>
+           <div class="bar">
+           <div class="skill-bar">
+               <div class="html skill-status"></div>
+           </div>
+           <span>85%</span>
+       </div>
+       </div>
+        <div class="skill"><span>CSS</span><br>
+           <div class="bar">
+           <div class="skill-bar">
+               <div class="css skill-status"></div>
+           </div>
+           <span>80%</span>
+       </div>
+       </div>
+    </div>
+    
+</section>
+ <section id="section-2">
+     <h1>About Me</h1>
+     <div class="profile">
+         <img src="/portfolio/images/background.jpg" alt="">
+     </div>
+     <div class="about">
+         <h4>ARYAN NAMA</h4>
+         <span>Engineering Student</span>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quasi asperiores quam soluta provident, reiciendis adipisci neque molestias autem facere cum ad facilis dolor ducimus expedita aut cumque iure similique.</p>
+     </div>
+ </section>
+ <section id="section-3">
+     <h2>My Projects</h2>
+     <div class="container">
+        <div><img src="/portfolio/images/quiz.jpg" alt=""></div> 
+    <span> Quiz game project in C</span>
+     </div>
+     <div class="container"><div><img src="/portfolio/images/science.jpg" alt=""></div>
+    <span>Modern Periodic Table project in C</span>
+    </div>
+
+     <div class="container">
+        <div><img src="/portfolio/images/background.jpg" alt=""></div>
+    <span> A Demo website using HTML & CSS</span>
+     </div>
+ </section>
+ 
+ <section id="section-5">
+     <h1>Contat Us</h1>
+     <div id="contact">
+         <h2>Contact Me</h2>
+         <div><i class="fas fa-map-marker-alt"></i><span>51, Jeevan Vihar, Gajsinghpura, Jaipur, Rajasthan </span></div>
+         <div><i class="fas fa-phone-alt"></i><span>9929314383</span></div>
+         <div><i class="fas fa-envelope"></i><span>aryan.nama001@gmail.com</span></div>
+        </div>
+        <div id="form">
+            <h2>
+                Want to conatct with me
+            </h2>
+            <form>
+                <input type="text" placeholder="Enter your Name" class="input">
+                <input type="text" placeholder="Mobile Number" class="input">
+                <input type="text" placeholder="Email" class="input">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" class="input"></textarea>
+                <button>send <span><i class="fas fa-paper-plane"></i></span></button>
+            </form>
+        </div>
+    </section>
+</body>
+<script>
+    var btn = document.getElementById('toggle-btn');
+    var menu = document.getElementById('menu');
+    
+    
+        btn.addEventListener('click',function show(){
+            if(menu.style.display == "none"){
+                menu.style.display="block";
+            }    
+            else {
+                menu.style.display='none';
+            }
+        })
+    
+    </script>
+    
+</html>
